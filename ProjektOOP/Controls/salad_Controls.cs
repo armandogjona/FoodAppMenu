@@ -1,4 +1,5 @@
-﻿using System;
+﻿using projektOOP.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,36 @@ namespace projektOOP
         private void sallata_Control_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void sallateCheff_Button_Click(object sender, EventArgs e)
+        {
+            StaticDb.AddToCart("Cheff Salad", 350);
+        }
+
+        private void sallateCeasar_Button_Click(object sender, EventArgs e)
+        {
+            StaticDb.AddToCart("Ceasar Salad", 270);
+        }
+
+        private void sallatPatate_Button_Click(object sender, EventArgs e)
+        {
+            StaticDb.AddToCart("Potato Salad", 250);
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            StaticDb.AddToCart("Fruit Salad", 250);
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            StaticDb.AddToCart("Greek Salad", 150);
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            StaticDb.AddToCart("Tuna Salad", 300);
         }
     }
 }

@@ -93,6 +93,7 @@
             b52Drinks_Button.Size = new Size(68, 61);
             b52Drinks_Button.TabIndex = 11;
             b52Drinks_Button.UseVisualStyleBackColor = true;
+            b52Drinks_Button.Click += b52Drinks_Button_Click;
             // 
             // label8
             // 
@@ -141,6 +142,7 @@
             beerDrinks_Button.Size = new Size(68, 61);
             beerDrinks_Button.TabIndex = 11;
             beerDrinks_Button.UseVisualStyleBackColor = true;
+            beerDrinks_Button.Click += beerDrinks_Button_Click;
             // 
             // label7
             // 
@@ -189,6 +191,7 @@
             bravoDrinks_Button.Size = new Size(68, 61);
             bravoDrinks_Button.TabIndex = 11;
             bravoDrinks_Button.UseVisualStyleBackColor = true;
+            bravoDrinks_Button.Click += bravoDrinks_Button_Click;
             // 
             // label6
             // 
@@ -237,6 +240,7 @@
             waterDrinks_Button.Size = new Size(68, 61);
             waterDrinks_Button.TabIndex = 11;
             waterDrinks_Button.UseVisualStyleBackColor = true;
+            waterDrinks_Button.Click += waterDrinks_Button_Click;
             // 
             // label5
             // 
@@ -285,6 +289,7 @@
             cocacolaDrinks_Button.Size = new Size(68, 61);
             cocacolaDrinks_Button.TabIndex = 11;
             cocacolaDrinks_Button.UseVisualStyleBackColor = true;
+            cocacolaDrinks_Button.Click += cocacolaDrinks_Button_Click;
             // 
             // label4
             // 
@@ -333,6 +338,7 @@
             fantaDrinks_Button.Size = new Size(68, 61);
             fantaDrinks_Button.TabIndex = 11;
             fantaDrinks_Button.UseVisualStyleBackColor = true;
+            fantaDrinks_Button.Click += fantaDrinks_Button_Click;
             // 
             // label3
             // 

@@ -93,6 +93,7 @@
             toast_Button.Size = new Size(68, 61);
             toast_Button.TabIndex = 11;
             toast_Button.UseVisualStyleBackColor = true;
+            toast_Button.Click += toast_Button_Click;
             // 
             // label8
             // 
@@ -141,6 +142,7 @@
             sandwich_Button.Size = new Size(68, 61);
             sandwich_Button.TabIndex = 11;
             sandwich_Button.UseVisualStyleBackColor = true;
+            sandwich_Button.Click += sandwich_Button_Click;
             // 
             // label7
             // 
@@ -189,6 +191,7 @@
             souvlaki_Button.Size = new Size(68, 61);
             souvlaki_Button.TabIndex = 11;
             souvlaki_Button.UseVisualStyleBackColor = true;
+            souvlaki_Button.Click += souvlaki_Button_Click;
             // 
             // label6
             // 
@@ -238,6 +241,7 @@
             cheeseBurger_Button.Size = new Size(68, 61);
             cheeseBurger_Button.TabIndex = 11;
             cheeseBurger_Button.UseVisualStyleBackColor = true;
+            cheeseBurger_Button.Click += cheeseBurger_Button_Click;
             // 
             // label5
             // 
@@ -287,6 +291,7 @@
             chickenBurger_Button.Size = new Size(68, 61);
             chickenBurger_Button.TabIndex = 11;
             chickenBurger_Button.UseVisualStyleBackColor = true;
+            chickenBurger_Button.Click += chickenBurger_Button_Click;
             // 
             // label4
             // 
@@ -336,6 +341,7 @@
             veggieBurger_Button.Size = new Size(68, 61);
             veggieBurger_Button.TabIndex = 11;
             veggieBurger_Button.UseVisualStyleBackColor = true;
+            veggieBurger_Button.Click += veggieBurger_Button_Click;
             // 
             // label3
             // 

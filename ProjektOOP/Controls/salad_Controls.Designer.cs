@@ -93,6 +93,7 @@
             button14.Size = new Size(68, 61);
             button14.TabIndex = 11;
             button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
             // 
             // label8
             // 
@@ -141,6 +142,7 @@
             button13.Size = new Size(68, 61);
             button13.TabIndex = 11;
             button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
             // 
             // label7
             // 
@@ -189,6 +191,7 @@
             button12.Size = new Size(68, 61);
             button12.TabIndex = 11;
             button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // label6
             // 
@@ -237,6 +240,7 @@
             sallateCheff_Button.Size = new Size(68, 61);
             sallateCheff_Button.TabIndex = 11;
             sallateCheff_Button.UseVisualStyleBackColor = true;
+            sallateCheff_Button.Click += sallateCheff_Button_Click;
             // 
             // label5
             // 
@@ -285,6 +289,7 @@
             sallateCeasar_Button.Size = new Size(68, 61);
             sallateCeasar_Button.TabIndex = 11;
             sallateCeasar_Button.UseVisualStyleBackColor = true;
+            sallateCeasar_Button.Click += sallateCeasar_Button_Click;
             // 
             // label4
             // 
@@ -333,6 +338,7 @@
             sallatPatate_Button.Size = new Size(68, 61);
             sallatPatate_Button.TabIndex = 11;
             sallatPatate_Button.UseVisualStyleBackColor = true;
+            sallatPatate_Button.Click += sallatPatate_Button_Click;
             // 
             // label3
             // 

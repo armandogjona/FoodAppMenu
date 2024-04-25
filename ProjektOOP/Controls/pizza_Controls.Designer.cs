@@ -93,6 +93,7 @@
             tonPizza_Button.Size = new Size(68, 61);
             tonPizza_Button.TabIndex = 11;
             tonPizza_Button.UseVisualStyleBackColor = true;
+            tonPizza_Button.Click += tonPizza_Button_Click;
             // 
             // label8
             // 
@@ -190,6 +191,7 @@
             vegetarianPizza_Button.Size = new Size(68, 61);
             vegetarianPizza_Button.TabIndex = 11;
             vegetarianPizza_Button.UseVisualStyleBackColor = true;
+            vegetarianPizza_Button.Click += vegetarianPizza_Button_Click;
             // 
             // label6
             // 
@@ -238,6 +240,7 @@
             hotPizza_Button.Size = new Size(68, 61);
             hotPizza_Button.TabIndex = 11;
             hotPizza_Button.UseVisualStyleBackColor = true;
+            hotPizza_Button.Click += hotPizza_Button_Click;
             // 
             // label5
             // 
@@ -287,6 +290,7 @@
             mushroomsPizza_Button.Size = new Size(68, 61);
             mushroomsPizza_Button.TabIndex = 11;
             mushroomsPizza_Button.UseVisualStyleBackColor = true;
+            mushroomsPizza_Button.Click += mushroomsPizza_Button_Click;
             // 
             // label4
             // 
@@ -335,6 +339,7 @@
             margaritaPizza_Button.Size = new Size(68, 61);
             margaritaPizza_Button.TabIndex = 11;
             margaritaPizza_Button.UseVisualStyleBackColor = true;
+            margaritaPizza_Button.Click += margaritaPizza_Button_Click;
             // 
             // label3
             // 
