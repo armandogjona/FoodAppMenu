@@ -17,22 +17,6 @@ namespace projektOOP
         {
             InitializeComponent();
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void login_Button_Click(object sender, EventArgs e)
         {
             // Check user
@@ -75,12 +59,6 @@ namespace projektOOP
         {
             button1.BackColor = Color.Transparent;
         }
-
-        private void login_form_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void signup_Button_Click(object sender, EventArgs e)
         {
             // Check user

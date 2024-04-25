@@ -48,7 +48,6 @@
             appLogo.SizeMode = PictureBoxSizeMode.Zoom;
             appLogo.TabIndex = 0;
             appLogo.TabStop = false;
-            appLogo.Click += pictureBox1_Click;
             // 
             // label1
             // 
@@ -59,7 +58,6 @@
             label1.Size = new Size(100, 22);
             label1.TabIndex = 2;
             label1.Text = "Username";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -70,7 +68,6 @@
             label2.Size = new Size(92, 22);
             label2.TabIndex = 3;
             label2.Text = "Password";
-            label2.Click += label2_Click;
             // 
             // username_textBox
             // 
@@ -159,7 +156,6 @@
             Name = "login_form";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LoginForm";
-            Load += login_form_Load;
             ((System.ComponentModel.ISupportInitialize)appLogo).EndInit();
             ResumeLayout(false);
             PerformLayout();
