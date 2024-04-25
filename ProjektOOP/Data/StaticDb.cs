@@ -41,6 +41,7 @@ namespace projektOOP.Data
 
             CurrentUser.Cart.Add(order);
             UpdateCart();
+            MessageBox.Show("Order added", "Order", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }

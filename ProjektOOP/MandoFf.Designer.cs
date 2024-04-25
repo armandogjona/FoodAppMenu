@@ -51,6 +51,7 @@
             snacks_Controls1 = new snacks_Controls();
             drinks_Controls1 = new drinks_Controls();
             home_Controls1 = new home_Controls();
+            foodCart1 = new foodcart_Controls();
             Second_form.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ig_logo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)fb_logo).BeginInit();
@@ -130,7 +131,6 @@
             userName_logged.Size = new Size(111, 18);
             userName_logged.TabIndex = 5;
             userName_logged.Text = "Unknown User";
-            userName_logged.Click += label1_Click;
             // 
             // pictureBox3
             // 
@@ -141,7 +141,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 4;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
             // 
             // mando_fastfood_Logo
             // 
@@ -168,7 +167,6 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(233, 628);
             panel2.TabIndex = 1;
-            panel2.Paint += panel2_Paint_1;
             // 
             // food_Cart_Button
             // 
@@ -186,6 +184,7 @@
             food_Cart_Button.TabIndex = 7;
             food_Cart_Button.Text = "                               Food Cart";
             food_Cart_Button.UseVisualStyleBackColor = false;
+            food_Cart_Button.Click += food_Cart_Button_Click;
             // 
             // drinkMenu_Button
             // 
@@ -292,7 +291,6 @@
             sallata_Controll1.Name = "sallata_Controll1";
             sallata_Controll1.Size = new Size(978, 628);
             sallata_Controll1.TabIndex = 2;
-            sallata_Controll1.Load += sallata_Controll1_Load;
             // 
             // burger_Controll1
             // 
@@ -328,13 +326,20 @@
             home_Controls1.Name = "home_Controls1";
             home_Controls1.Size = new Size(978, 628);
             home_Controls1.TabIndex = 7;
-            home_Controls1.Load += home_Controls1_Load;
+            // 
+            // foodCart1
+            // 
+            foodCart1.Location = new Point(237, 67);
+            foodCart1.Name = "foodCart1";
+            foodCart1.Size = new Size(978, 628);
+            foodCart1.TabIndex = 8;
             // 
             // MandoFf
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1215, 695);
+            Controls.Add(foodCart1);
             Controls.Add(home_Controls1);
             Controls.Add(drinks_Controls1);
             Controls.Add(snacks_Controls1);
@@ -384,5 +389,6 @@
         private drinks_Controls drinks_Controls1;
         private home_Controls home_Controls1;
         private Button button1;
+        private foodcart_Controls foodCart1;
     }
 }

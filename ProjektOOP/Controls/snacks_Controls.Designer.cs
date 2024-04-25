@@ -93,6 +93,7 @@
             chickenSnacks_Button.Size = new Size(68, 61);
             chickenSnacks_Button.TabIndex = 11;
             chickenSnacks_Button.UseVisualStyleBackColor = true;
+            chickenSnacks_Button.Click += chickenSnacks_Button_Click;
             // 
             // label8
             // 
@@ -141,6 +142,7 @@
             sausagebiscuitSnacks_Button.Size = new Size(68, 61);
             sausagebiscuitSnacks_Button.TabIndex = 11;
             sausagebiscuitSnacks_Button.UseVisualStyleBackColor = true;
+            sausagebiscuitSnacks_Button.Click += sausagebiscuitSnacks_Button_Click;
             // 
             // label7
             // 
@@ -189,6 +191,7 @@
             hashbrownsSnacks_Button.Size = new Size(68, 61);
             hashbrownsSnacks_Button.TabIndex = 11;
             hashbrownsSnacks_Button.UseVisualStyleBackColor = true;
+            hashbrownsSnacks_Button.Click += hashbrownsSnacks_Button_Click;
             // 
             // label6
             // 
@@ -237,6 +240,7 @@
             friesSnacks_Button.Size = new Size(68, 61);
             friesSnacks_Button.TabIndex = 11;
             friesSnacks_Button.UseVisualStyleBackColor = true;
+            friesSnacks_Button.Click += friesSnacks_Button_Click;
             // 
             // label5
             // 
@@ -285,6 +289,7 @@
             applepieSnacks_Button.Size = new Size(68, 61);
             applepieSnacks_Button.TabIndex = 11;
             applepieSnacks_Button.UseVisualStyleBackColor = true;
+            applepieSnacks_Button.Click += applepieSnacks_Button_Click;
             // 
             // label4
             // 
@@ -333,6 +338,7 @@
             cookieSnacks_Button.Size = new Size(68, 61);
             cookieSnacks_Button.TabIndex = 11;
             cookieSnacks_Button.UseVisualStyleBackColor = true;
+            cookieSnacks_Button.Click += cookieSnacks_Button_Click;
             // 
             // label3
             // 
@@ -340,9 +346,9 @@
             label3.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(17, 201);
             label3.Name = "label3";
-            label3.Size = new Size(244, 22);
+            label3.Size = new Size(234, 22);
             label3.TabIndex = 10;
-            label3.Text = "Chocolate Cookie   300lek";
+            label3.Text = "Chocolate Cookie   50lek";
             // 
             // cookie_Snacks_png
             // 

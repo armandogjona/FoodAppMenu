@@ -1,4 +1,5 @@
-﻿using System;
+﻿using projektOOP.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,6 +31,11 @@ namespace projektOOP
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            StaticDb.AddToCart("Cheese Burger", 150);
         }
     }
 }

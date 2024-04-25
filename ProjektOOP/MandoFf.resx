@@ -121,7 +121,7 @@
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAOtJREFUSEvt1kEOAUEQheG5BOEq4gA4to0EKxb2HKS97vozEkxPZUqGhS/pRVf3
+        DAAACwwBP0AiyAAAAOtJREFUSEvt1kEOAUEQheG5BOEq4gA4to0EKxb2HKS97vozEkxPZUqGhS/pRVf3
         e51IiObvK1JKG62b1lA5u6bOj2DUlTo/gmHU+ZELo86PXBh1fuTCqPMjF0adH7kw6gptt1pHrSmjVzn0
         CdQV2u5tms5a7x+38zjqCm0nWqdykNJFa87Rg53FUdfSqP64zXstuN6JezUHrhqGfZZc78S9mkEP96Ku
         pdHzRz3jyNg8jrpC2/qjmZ3FUVdoe7Dp+F+nndb4PyAu5MKo8yMXRp0fuTDq/MiFUeenzNf+7K1zsMSH
@@ -2591,7 +2591,7 @@
   <data name="food_Cart_Button.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAgtJREFUaEPtms0uBFEQhWeDGL8riT0rL4GVvwgeYxIegP2w5WF4gWElFjaChcjw
+        DAAACwwBP0AiyAAAAgtJREFUaEPtms0uBFEQhWeDGL8riT0rL4GVvwgeYxIegP2w5WF4gWElFjaChcjw
         AoRtO3XrtMxfTzU90ylxv+QkpvrccsrtnsncqEQiJZMkySXkjQbj5YcL3cF4+eE6dzBefrjOHYwX+Ztg
         Bxd1I12ywJg2MB/oGpfsM6YNzBe6xiXnjNkfGMehj7DEJ59QlXGzgWk92H2zxrjZwHSmXtecMm42MD2q
         1zUPjJsNTK/qbeMFclVn3GxgOlFvG8eQqzrjZgPTKCSL5S8hkp+l5qrOuP8ETLwCTfKlG5BpSrLxpQ3M
