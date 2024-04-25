@@ -262,7 +262,6 @@
             hot_Pizza_png.SizeMode = PictureBoxSizeMode.StretchImage;
             hot_Pizza_png.TabIndex = 0;
             hot_Pizza_png.TabStop = false;
-            hot_Pizza_png.Click += hot_Pizza_png_Click;
             // 
             // panel5
             // 

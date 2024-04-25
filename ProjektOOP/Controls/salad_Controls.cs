@@ -17,12 +17,6 @@ namespace projektOOP
         {
             InitializeComponent();
         }
-
-        private void sallata_Control_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void sallateCheff_Button_Click(object sender, EventArgs e)
         {
             StaticDb.AddToCart("Cheff Salad", 350);

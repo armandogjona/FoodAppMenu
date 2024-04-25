@@ -17,12 +17,6 @@ namespace projektOOP
         {
             InitializeComponent();
         }
-
-        private void hot_Pizza_png_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void sandwich_Button_Click(object sender, EventArgs e)
         {
             StaticDb.AddToCart("4 Stinet", 600);

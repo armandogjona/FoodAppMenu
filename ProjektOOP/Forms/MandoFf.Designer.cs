@@ -348,6 +348,8 @@
             Controls.Add(panel2);
             Controls.Add(Second_form);
             Controls.Add(burger_Controll1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "MandoFf";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mando Fast Food";

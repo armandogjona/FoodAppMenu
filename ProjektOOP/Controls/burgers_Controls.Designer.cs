@@ -202,7 +202,6 @@
             label6.Size = new Size(244, 23);
             label6.TabIndex = 10;
             label6.Text = "Souvlaki              250 lek";
-            label6.Click += label6_Click;
             // 
             // souvlaki_Burger_png
             // 
@@ -252,7 +251,6 @@
             label5.Size = new Size(247, 23);
             label5.TabIndex = 10;
             label5.Text = "CheeseBurger      150lek";
-            label5.Click += label5_Click;
             // 
             // cheese_Burger_png
             // 
@@ -302,7 +300,6 @@
             label4.Size = new Size(230, 23);
             label4.TabIndex = 10;
             label4.Text = "Chicken Burger 175lek";
-            label4.Click += label4_Click;
             // 
             // chicken_Burger_png
             // 

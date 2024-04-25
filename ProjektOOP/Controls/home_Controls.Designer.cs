@@ -59,7 +59,6 @@
             label2.Size = new Size(479, 155);
             label2.TabIndex = 1;
             label2.Text = "150lek";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -71,7 +70,6 @@
             label3.Size = new Size(64, 27);
             label3.TabIndex = 2;
             label3.Text = "Only";
-            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -83,7 +81,6 @@
             label4.Size = new Size(413, 29);
             label4.TabIndex = 3;
             label4.Text = "With melted cheese and a big patty";
-            label4.Click += label4_Click;
             // 
             // label5
             // 

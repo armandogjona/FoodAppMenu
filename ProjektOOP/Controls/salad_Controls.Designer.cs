@@ -374,7 +374,6 @@
             Controls.Add(panel3);
             Name = "salad_Controls";
             Size = new Size(978, 628);
-            Load += sallata_Control_Load;
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)tuna_Salad_png).EndInit();
