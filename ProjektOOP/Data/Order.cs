@@ -1,5 +1,4 @@
 ﻿namespace projektOOP.Data;
-
 internal class Order
 {
     public string Description { get; set; } = "";

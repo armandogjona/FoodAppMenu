@@ -1,13 +1,4 @@
 ﻿using projektOOP.Data;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace projektOOP
 {
@@ -28,6 +19,16 @@ namespace projektOOP
                 total += order.Price;
             }
             //label.text = total
+        }
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (listBox1.SelectedItems.Count > 0)
+            {
+                listBox1.Items.Remove(listBox1.SelectedItem);
+                StaticDb.Save();
+                StaticDb.UpdateCart();
+            }
         }
     }
 }
