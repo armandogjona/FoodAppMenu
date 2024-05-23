@@ -21,14 +21,16 @@ namespace projektOOP
             //label.text = total
         }
 
-        private void button1_MouseClick(object sender, MouseEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItems.Count > 0)
-            {
-                listBox1.Items.Remove(listBox1.SelectedItem);
-                StaticDb.Save();
-                StaticDb.UpdateCart();
-            }
+            if (listBox1.SelectedItems.Count < 0)
+                return;
+
+            StaticDb.CurrentUser.Cart.RemoveAt(listBox1.SelectedIndex);
+
+            StaticDb.Save();
+            StaticDb.UpdateCart();
+            LoadData();
         }
     }
 }

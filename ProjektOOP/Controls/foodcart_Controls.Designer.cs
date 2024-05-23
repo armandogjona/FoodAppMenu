@@ -69,7 +69,7 @@
             button1.TabIndex = 0;
             button1.Text = "Delete";
             button1.UseVisualStyleBackColor = false;
-            button1.MouseClick += button1_MouseClick;
+            button1.Click += button1_Click;
             // 
             // foodcart_Controls
             // 
