@@ -18,7 +18,6 @@ namespace projektOOP
                 listBox1.Items.Add($"{order.Description} - {order.Price}LEK");
                 total += order.Price;
             }
-            //label.text = total
         }
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
@@ -30,6 +29,5 @@ namespace projektOOP
                 StaticDb.UpdateCart();
             }
         }
-
     }
 }
