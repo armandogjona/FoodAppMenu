@@ -30,6 +30,5 @@ namespace projektOOP
                 StaticDb.UpdateCart();
             }
         }
-
     }
 }
