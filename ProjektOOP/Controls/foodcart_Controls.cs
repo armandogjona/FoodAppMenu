@@ -12,13 +12,15 @@ namespace projektOOP
         public void LoadData()
         {
             listBox1.Items.Clear();
+            listBox2.Items.Clear();
             var total = 0;
             foreach (var order in StaticDb.CurrentUser.Cart)
             {
                 listBox1.Items.Add($"{order.Description} - {order.Price}LEK");
                 total += order.Price;
             }
-            //label.text = total
+            listBox2.Items.Add($"Total: {total}LEK");
+                //label.text = total
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,7 +29,6 @@ namespace projektOOP
                 return;
 
             StaticDb.CurrentUser.Cart.RemoveAt(listBox1.SelectedIndex);
-
             StaticDb.Save();
             StaticDb.UpdateCart();
             LoadData();

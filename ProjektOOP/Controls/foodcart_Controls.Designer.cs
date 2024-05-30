@@ -31,19 +31,20 @@
             listBox1 = new ListBox();
             panel1 = new Panel();
             button1 = new Button();
+            listBox2 = new ListBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // listBox1
             // 
             listBox1.BackColor = Color.DarkOrange;
-            listBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            listBox1.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 23;
             listBox1.Items.AddRange(new object[] { "test qwrersr", "srserserser" });
             listBox1.Location = new Point(0, 0);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(981, 556);
+            listBox1.Size = new Size(981, 510);
             listBox1.TabIndex = 0;
             // 
             // panel1
@@ -71,10 +72,22 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // listBox2
+            // 
+            listBox2.BackColor = Color.DarkOrange;
+            listBox2.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            listBox2.FormattingEnabled = true;
+            listBox2.ItemHeight = 23;
+            listBox2.Location = new Point(0, 516);
+            listBox2.Name = "listBox2";
+            listBox2.Size = new Size(981, 50);
+            listBox2.TabIndex = 2;
+            // 
             // foodcart_Controls
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(listBox2);
             Controls.Add(panel1);
             Controls.Add(listBox1);
             Name = "foodcart_Controls";
@@ -88,5 +101,6 @@
         private ListBox listBox1;
         private Panel panel1;
         private Button button1;
+        private ListBox listBox2;
     }
 }
